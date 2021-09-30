@@ -1,0 +1,18 @@
+/* this is a style.css document for our project */
+
+body {
+    background-color: #f0f0d8;
+  }
+
+  /* add wrapper for max width desktop */
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  section, .navbar {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
