@@ -10,11 +10,45 @@
     <title>Chillout Berlin</title>
   </head>
   <body>
-    <div class="wrapper">
-      
-      <div class="navbar">
-        <img src="assets/navbar_placeholder.jpg">
-      </div>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="nav-login" id="loginIcon">
+          <img class="icon" src="./icons/join.svg" alt="" />
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+          <img
+            class="icon icon-burger"
+            id="menuOpen"
+            src="./icons/bars-solid.svg"
+            alt=""
+          />
+          <img
+            class="icon icon-close display-none"
+            id="menuClose"
+            src="./icons/times-solid.svg"
+            alt=""
+          />
+        </div>
+        <div class="menu-content display-none" id="menuContent">
+          <div class="menu-icon-be">
+            <a href="#section-be">
+              <img class="icon" src="./icons/be.svg" alt="" />
+            </a>
+          </div>
+          <div class="menu-icon-do">
+            <a href="#section-do">
+              <img class="icon" src="./icons/do.svg" alt="" />
+            </a>
+          </div>
+          <div class="menu-icon go">
+            <a href="#section-go">
+              <img class="icon" src="./icons/go.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>  
 
 <!-- <div class="">
   <form>
@@ -127,6 +161,5 @@ form elements overlay
     <script src="script.js">
       
     </script>
-
   </body>
 </html>
