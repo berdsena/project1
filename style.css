@@ -1,3 +1,10 @@
+/* add wrapper for max width desktop */
+.wrapper {
+  background-color: #f0f0d8;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 
 nav {
@@ -47,6 +54,10 @@ nav {
   display: none;
 }
 
+/* SECTIONS */
+
 section {
-  margin-top: 20rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
