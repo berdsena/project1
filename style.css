@@ -1,5 +1,52 @@
-/* this is a style.css document for our project */
+/* HEADER */
 
-body {
-    background-color: rgba(88, 155, 175, 0.911);
-  }
+nav {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav-login {
+  position: absolute;
+  left: 1rem;
+}
+
+.nav-login .icon {
+  position: absolute;
+}
+
+.menu-content {
+  width: 100%;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all ease-in-out 5ms;
+  border-radius: 5px;
+  background-color: rgba(248, 247, 247, 0.466);
+}
+
+.menu-toggle {
+  position: absolute;
+  right: 4rem;
+  cursor: pointer;
+}
+
+.menu-toggle .icon {
+  position: absolute;
+  height: 60px;
+}
+
+.icon {
+  width: 60px;
+  padding: 0.5rem;
+  transition: all ease-in-out 5ms;
+}
+
+.display-none {
+  display: none;
+}
+
+section {
+  margin-top: 20rem;
+}
