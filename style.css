@@ -1,8 +1,17 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
 /* add wrapper for max width desktop */
 .wrapper {
   background-color: #f0f0d8;
   max-width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 /* HEADER */
@@ -17,6 +26,7 @@ nav {
 .nav-login {
   position: absolute;
   left: 1rem;
+  cursor: pointer;
 }
 
 .nav-login .icon {
@@ -54,10 +64,59 @@ nav {
   display: none;
 }
 
+/* WELCOME SECTION */
+
+.welcome-text {
+  width: 80%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.welcome-text:first-child {
+  text-align: left;
+}
+
+/* .welcome-text:nth-child(2n) {
+  text-align: right;
+} */
+
+.welcome-categories {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.welcome-categorie {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.welcome-categorie:nth-child(2) {
+  padding-right: 0;
+  padding-left: 4rem;
+}
+
 /* SECTIONS */
 
 section {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   align-items: center;
+  padding-top: 4.2rem; /* because has 4rem height*/
+}
+
+section .section-image {
+  width: 100%;
+}
+
+.carrousel-container {
+  width: 80%;
+  margin: 0 auto;
 }
