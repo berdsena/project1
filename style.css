@@ -72,14 +72,6 @@ nav {
   padding: 0.5rem;
 }
 
-.welcome-text:first-child {
-  text-align: left;
-}
-
-/* .welcome-text:nth-child(2n) {
-  text-align: right;
-} */
-
 .welcome-categories {
   width: 90%;
   display: flex;
