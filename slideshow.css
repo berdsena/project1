@@ -1,70 +1,80 @@
+/* body{
+    background-color: cornsilk;
+    margin: 0%;
+} */
 .slides {
     display: flex;
-    position: relative;
-    width: 100%;
-    max-height: 100%;
-    max-width: 100%;
-    padding: 4px 4px 0 4px;
     margin: 0%;
-    /* justify-content: center;
-    align-items: center; */
+    padding: 0%;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
 }
-.slide_number, .slide_caption{
+.slide {
+    display: none;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    max-height: 100%;
+    max-width: fit-content;
+}
+.slide_number, .slide_caption {
+    display: block;
+    margin: 0%;
     position: absolute;
     color:#f0f0d8;
-    background-color: #5f90ad90;
+    background-color: #5f90ad20;
     font-size: 16px;
     padding: 5px;
     border-radius: 40%;
-    text-align: center;
 }
 .slide_number {
     top: 0%;
-    margin: 10px 0 0 10px;
 }
 .slide_caption {
     bottom: 0%;
-    margin: 0 0 10px 10px;
 }
-
-.slide {
-    display: none;
-    flex-direction: column;
-    max-height: 100%;
-    max-width: 100%;
-    justify-content: center;
-    align-content: center;
-}
-.slide img{
-    max-height: 100%;
-    max-width: 100%;
+.slide_img{
     margin: 0%;
+    padding: 0%;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
     border-radius: 2%;
 }
-.prev, .next {
+.slide_buttons {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
     position: absolute;
-    top: 30%;
-    color: #fa7f43;
-    background-color: #5f90ad90;
-    height: 200px;
-    width: 20px;
-    margin: 0;
-    padding: 0;
-    line-height: 200px;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 100%;
+}
+.prev, .next {
+    margin: 0%;
+    display: block;
     font-size: 20px;
     text-decoration: none;
-    text-align: center;
-}
-.next{
-    right: 2%;
-    border-radius: 30px 0 0 30px;
+    color: #fa7f43;
+    background-color: #5f90ad20;
+    padding: 40% 2px;
 }
 .prev{
-    left: 2%;
     border-radius: 0 30px 30px 0;
 }
-.index {
-    display: inline-block;
+.next{
+    border-radius: 30px 0 0 30px;
+}
+.index{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.dot{
+    padding: 0%;
+    display: block;
     margin: 8px 3px;
     height: 15px;
     width: 15px;

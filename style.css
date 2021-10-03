@@ -108,10 +108,10 @@ section .section-image {
   width: 100%;
 }
 
-.carousel {
+/* .carousel {
   display: flex;
   flex-direction: column;
   height: 80vh;
-  border: solid red 2px;
-  align-content: center;
-}
+  justify-content: center;
+  padding: 2px;
+} */
