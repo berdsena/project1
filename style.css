@@ -80,7 +80,7 @@ nav {
   padding: 1rem;
 }
 
-.welcome-categorie {
+.welcome-category {
   width: 90%;
   display: flex;
   justify-content: space-around;
@@ -90,7 +90,7 @@ nav {
   font-weight: 700;
 }
 
-.welcome-categorie:nth-child(2) {
+.welcome-category:nth-child(2) {
   padding-right: 0;
   padding-left: 4rem;
 }
