@@ -16,9 +16,13 @@ body {
 
 /* HEADER */
 
-nav {
-  height: 4rem;
+header {
   width: 100%;
+}
+
+nav {
+  height: 4rem; 
+  width: 960px;
   position: fixed;
   top: 0;
 }
@@ -62,6 +66,13 @@ nav {
   transition: all ease-in-out 5ms;
 }
 
+/* desktop nav */
+.desktop-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .display-none {
   display: none;
 }
@@ -70,14 +81,25 @@ nav {
   opacity: 0;
 }
 
-@media (min-width: 768px) {
+/* position fixed messed up the width, because it doesn't refer to any parent anymore */
+/* so initially the width is set fixed to the wrappers width */
+/* as soon as it gets below 960px it is set to 100% */
+@media (max-width: 960px) {
+  nav {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
   .mobile-menu {
     display: none;
   }
   .desktop-menu {
-    display: block;
+    display: flex;
   }
 }
+
+
 
 /* WELCOME SECTION */
 
