@@ -119,26 +119,21 @@ section {
   flex-direction: column;
   align-items: center;
   padding-top: 4.2rem; /* because has 4rem height*/
+  width: 100%;
 }
 
 section .section-image {
   width: 100%;
 }
 
-
-.carrousel-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .beCarousel, .doCarousel, .goCarousel {
-  display: block;
-  flex-direction: column;
-  /* height: 50vh; */
-  justify-content: center;
+  display: flex;
+  flex-flow: column nowrap;
   margin: 0%;
   padding: 2px;
-
+  width: 100%;
+  height: 100%;
+  align-items: center;
 }
 
 #section-be {
