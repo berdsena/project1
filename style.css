@@ -108,10 +108,11 @@ section .section-image {
   width: 100%;
 }
 
-/* .carousel {
-  display: flex;
+.beCarousel, .doCarousel, .goCarousel {
+  display: block;
   flex-direction: column;
-  height: 80vh;
+  /* height: 50vh; */
   justify-content: center;
+  margin: 0%;
   padding: 2px;
-} */
+}
