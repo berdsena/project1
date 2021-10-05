@@ -53,6 +53,7 @@
 }
 .prev, .next {
     display: block;
+    cursor: pointer;
     margin: 0%;
     padding: 40% 2px;
     color: #fa7f43;
@@ -74,6 +75,7 @@
 }
 .dot{
     display: block;
+    cursor: pointer;
     padding: 0%;
     margin: 8px 3px;
     background-color: #fa7f43;
