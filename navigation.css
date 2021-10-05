@@ -1,0 +1,129 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* add wrapper for max width desktop */
+.wrapper {
+  background-color: #f0f0d8;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* HEADER */
+
+nav {
+  height: 4rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.nav-login {
+  position: absolute;
+  left: 0.75rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.nav-login .icon {
+  position: absolute;
+}
+
+.menu-content {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all ease-in-out 5ms;
+  border-radius: 5px;
+  background-color: rgba(248, 247, 247, 0.466);
+}
+
+.menu-toggle {
+  position: absolute;
+  right: 4rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.menu-toggle .icon {
+  position: absolute;
+  height: 60px;
+}
+
+.icon {
+  width: 60px;
+  padding: 0.5rem;
+  transition: all ease-in-out 5ms;
+}
+
+.display-none {
+  display: none;
+}
+
+.opacity-zero {
+  opacity: 0;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  .desktop-menu {
+    display: block;
+  }
+}
+
+/* WELCOME SECTION */
+
+.welcome-text {
+  width: 80%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.welcome-categories {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.welcome-categorie {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.welcome-categorie:nth-child(2) {
+  padding-right: 0;
+  padding-left: 4rem;
+}
+
+/* SECTIONS */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4.2rem; /* because has 4rem height*/
+}
+
+section .section-image {
+  width: 100%;
+}
+
+.carrousel-container {
+  width: 80%;
+  margin: 0 auto;
+}

@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navigation.css" />
 
     <title>Chillout Berlin</title>
   </head>
@@ -19,24 +19,49 @@
     <div class="wrapper">
       <header>
         <nav>
-          <div class="nav-login" id="loginIcon">
-            <img class="icon" src="./icons/join.svg" alt="" />
+          <div class="mobile-menu">
+            <div class="nav-login" id="loginIconStart">
+              <img class="icon" src="./icons/join.svg" alt="" />
+            </div>
+            <div class="menu-toggle opacity-zero" id="menuToggle">
+              <img
+                class="icon icon-burger"
+                id="menuOpen"
+                src="./icons/bars-solid.svg"
+                alt=""
+              />
+              <img
+                class="icon icon-close display-none"
+                id="menuClose"
+                src="./icons/times-solid.svg"
+                alt=""
+              />
+            </div>
+            <div class="menu-content display-none" id="menuContent">
+              <div class="nav-login" id="loginIconMenu">
+                <img class="icon" src="./icons/join.svg" alt="" />
+              </div>
+              <div class="menu-icon-be">
+                <a class="menu-link" href="#section-be">
+                  <img class="icon" src="./icons/be.svg" alt="" />
+                </a>
+              </div>
+              <div class="menu-icon-do">
+                <a class="menu-link" href="#section-do">
+                  <img class="icon" src="./icons/do.svg" alt="" />
+                </a>
+              </div>
+              <div class="menu-icon go">
+                <a class="menu-link" href="#section-go">
+                  <img class="icon" src="./icons/go.svg" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="menu-toggle" id="menuToggle">
-            <img
-              class="icon icon-burger"
-              id="menuOpen"
-              src="./icons/bars-solid.svg"
-              alt=""
-            />
-            <img
-              class="icon icon-close display-none"
-              id="menuClose"
-              src="./icons/times-solid.svg"
-              alt=""
-            />
-          </div>
-          <div class="menu-content display-none" id="menuContent">
+          <div class="desktop-menu display-none">
+            <div class="nav-login">
+              <img class="icon" src="./icons/join.svg" alt="" />
+            </div>
             <div class="menu-icon-be">
               <a class="menu-link" href="#section-be">
                 <img class="icon" src="./icons/be.svg" alt="" />
@@ -174,6 +199,6 @@
       </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="navigation.js"></script>
   </body>
 </html>
