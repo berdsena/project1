@@ -92,7 +92,7 @@ nav {
   font-weight: 700;
 }
 
-.welcome-categorie:nth-child(2) {
+.welcome-category:nth-child(2) {
   padding-right: 0;
   padding-left: 4rem;
 }
@@ -110,9 +110,20 @@ section .section-image {
   width: 100%;
 }
 
+
 .carrousel-container {
   width: 80%;
   margin: 0 auto;
+}
+
+.beCarousel, .doCarousel, .goCarousel {
+  display: block;
+  flex-direction: column;
+  /* height: 50vh; */
+  justify-content: center;
+  margin: 0%;
+  padding: 2px;
+
 }
 
 #section-be {
@@ -136,4 +147,3 @@ section .section-image {
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-around;
-}
