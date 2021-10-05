@@ -34,6 +34,7 @@ nav {
 }
 
 .menu-content {
+  
   width: 100%;
   padding-right: 2rem;
   display: flex;
@@ -73,6 +74,7 @@ nav {
 }
 
 .welcome-categories {
+  font-family: 'Lobster', cursive;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -108,6 +110,12 @@ section .section-image {
   width: 100%;
 }
 
+
+.carrousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .beCarousel, .doCarousel, .goCarousel {
   display: block;
   flex-direction: column;
@@ -115,4 +123,27 @@ section .section-image {
   justify-content: center;
   margin: 0%;
   padding: 2px;
+
 }
+
+#section-be {
+  background-color: #CCD8CE;
+}
+
+#section-do {
+  background-color: #A8C0C3;
+}
+
+#section-go {
+  background-color: #84A8B8
+}
+
+#section-join {
+  background-color: #5F90AD;
+}
+
+#section-footer {
+  background-color: #D4845E;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
