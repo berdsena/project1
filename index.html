@@ -14,8 +14,10 @@
     href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
     rel="stylesheet"
   />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navigation.css" />
     <link rel="stylesheet" href="slideshow.css">
     <title>Chillout Berlin</title>
   </head>
@@ -23,42 +25,69 @@
     <div class="wrapper">
       <header>
         <nav>
-          <div class="nav-login" id="loginIcon">
-            <img class="icon" src="./icons/join.svg" alt="" />
+          <div class="mobile-menu">
+            <div class="nav-login" id="loginIconStart">
+              <img class="icon" src="./icons/join.svg" alt="" />
+            </div>
+            <div class="menu-toggle opacity-zero" id="menuToggle">
+              <img
+                class="icon icon-burger"
+                id="menuOpen"
+                src="./icons/bars-solid.svg"
+                alt=""
+              />
+              <img
+                class="icon icon-close display-none"
+                id="menuClose"
+                src="./icons/times-solid.svg"
+                alt=""
+              />
+            </div>
+            <div class="menu-content display-none" id="menuContent">
+              <div class="nav-login" id="loginIconMenu">
+                <img class="icon" src="./icons/join.svg" alt="" />
+              </div>
+              <div class="menu-icon-be">
+                <a class="menu-link" href="#section-be">
+                  <img class="icon" src="./icons/be.svg" alt="" />
+                </a>
+              </div>
+              <div class="menu-icon-do">
+                <a class="menu-link" href="#section-do">
+                  <img class="icon" src="./icons/do.svg" alt="" />
+                </a>
+              </div>
+              <div class="menu-icon go">
+                <a class="menu-link" href="#section-go">
+                  <img class="icon" src="./icons/go.svg" alt="" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="menu-toggle" id="menuToggle">
-            <img
-              class="icon icon-burger"
-              id="menuOpen"
-              src="./icons/bars-solid.svg"
-              alt=""
-            />
-            <img
-              class="icon icon-close display-none"
-              id="menuClose"
-              src="./icons/times-solid.svg"
-              alt=""
-            />
-          </div>
-          <div class="menu-content display-none" id="menuContent">
+          <div class="desktop-menu display-none">
+            <div class="menu-link">
+              <img class="icon" src="./icons/join.svg" alt="" />
+            </div>
             <div class="menu-icon-be">
-              <a href="#section-be">
+              <a class="menu-link" href="#section-be">
                 <img class="icon" src="./icons/be.svg" alt="" />
               </a>
             </div>
             <div class="menu-icon-do">
-              <a href="#section-do">
+              <a class="menu-link" href="#section-do">
                 <img class="icon" src="./icons/do.svg" alt="" />
               </a>
             </div>
-            <div class="menu-icon go">
-              <a href="#section-go">
+            <div class="menu-icon-go">
+              <a class="menu-link" href="#section-go">
                 <img class="icon" src="./icons/go.svg" alt="" />
               </a>
             </div>
           </div>
         </nav>
       </header>
+  
+ 
       <!-- <div class="">
           <form>
         .
@@ -75,9 +104,7 @@
           <br />
           <h2><i>Stressed</i> out? Need a <i>break?</i></h2>
           <h3>
-            Welcome to <i>Chillout Berlin</i> <br />the place for a '<u
-              >digital time out</u
-            >'!
+            Welcome to <i>Chillout Berlin</i><br />the place for a '<u>digital time out</u>'!
           </h3>
         </div>
         <div class="welcome-categories">
@@ -281,7 +308,7 @@
         </div>
       </section>
     </div>
-    <script src="hamburger.js"></script>
-    <script src="slideshow_2.js"></script>
+    <script src="navigation.js"></script>
+    <script src="slideshow.js"></script>
   </body>
 </html>
