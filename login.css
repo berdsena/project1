@@ -1,0 +1,75 @@
+.login_layout{
+    display: none;
+    position: fixed;
+    z-index: 199;
+    width: 100vw;
+    height: 100vh;
+}
+.login_screen{
+    display: flex;
+    position: fixed;
+    z-index: 200;
+    flex-flow: column nowrap;
+    width: 90vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.712);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5%;
+    border-radius: 10% 30% 10% 30%;
+}
+.login_head{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.logo_img{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    border-radius: 20%;
+    width: 40%;
+}
+.close_button{
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+}
+.close_icon{
+    display: block;
+    width: 20px;
+}
+.login_input{
+    display: flex;
+    flex-flow: column nowrap;
+}
+label{
+    visibility: hidden;
+}
+.login_input input{
+    padding: 8px;
+    border-radius: 10px;
+}
+.forgot{
+    cursor: pointer;
+    padding: 8px;
+    color: #f0f0d8;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login_buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 10px 10px 10px 0;
+    border-radius: 10px;
+}
+.login_buttons button{
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+}

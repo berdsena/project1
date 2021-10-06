@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="navigation.css" />
     <link rel="stylesheet" href="slideshow.css">
+    <link rel="stylesheet" href="login.css">
     <title>Chillout Berlin</title>
   </head>
   <body>
@@ -26,7 +27,7 @@
       <header>
         <nav>
           <div class="mobile-menu">
-            <div class="nav-login" id="loginIconStart">
+            <div class="nav-login login_icon" id="loginIconStart">
               <img class="icon" src="./icons/join.svg" alt="" />
             </div>
             <div class="menu-toggle opacity-zero" id="menuToggle">
@@ -44,7 +45,7 @@
               />
             </div>
             <div class="menu-content display-none" id="menuContent">
-              <div class="nav-login" id="loginIconMenu">
+              <div class="nav-login login_icon" id="loginIconMenu">
                 <img class="icon" src="./icons/join.svg" alt="" />
               </div>
               <div class="menu-icon-be">
@@ -65,7 +66,7 @@
             </div>
           </div>
           <div class="desktop-menu display-none">
-            <div class="menu-link">
+            <div class="menu-link login_icon">
               <img class="icon" src="./icons/join.svg" alt="" />
             </div>
             <div class="menu-icon-be">
@@ -86,16 +87,29 @@
           </div>
         </nav>
       </header>
-  
- 
-      <!-- <div class="">
-          <form>
-        .
-        form elements overlay
-        .
-        </form>
-        </div> -->
-      <!-- Welcome Section -->
+      <div class="login_layout">
+        <div class="login_screen">
+          <div class="login_head">
+              <div class="logo_img">
+                  <img src="./newicons/be_icon.png" alt="x" class="logo">
+              </div>
+              <div class="close_button">
+                  <img src="x.png" alt="" class="close_icon">
+              </div>
+          </div>
+          <div class="login_input">
+              <label for="userNameInput">Username:</label>
+              <input type="text" id="userNameInput" placeholder="Username">
+              <label for="userPassword">Password:</label>
+              <input type="password" id="userPassword" placeholder="Password">
+              <span class="forgot">forgot password</span>
+          </div>
+          <div class="login_buttons">
+              <button class="login">Log in</button>
+              <button class="register">Creat new account</button>
+          </div>
+        </div>
+      </div>
       <section class="">
         <div class="">
           <img src="./assets/logo_placeholder.jpg" />
@@ -308,6 +322,7 @@
         </div>
       </section>
     </div>
+    <script src="login.js"></script>
     <script src="navigation.js"></script>
     <script src="slideshow.js"></script>
   </body>
