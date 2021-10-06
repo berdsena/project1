@@ -9,6 +9,7 @@ nav {
   width: 960px;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .nav-login {
@@ -29,7 +30,7 @@ nav {
   justify-content: space-evenly;
   transition: all ease-in-out 5ms;
   border-radius: 5px;
-  background-color: rgba(248, 247, 247, 0.466);
+  background-color: #D4845E;
 }
 
 .menu-toggle {
@@ -42,6 +43,8 @@ nav {
 .menu-toggle .icon {
   position: absolute;
   height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
 }
 
 .icon {
