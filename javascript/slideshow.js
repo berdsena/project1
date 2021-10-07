@@ -30,7 +30,7 @@ class Slide {
         for(let i=0;i<this.slidesArray.length;i++){
             this.slidesArray[i].style.display = 'none';
         }
-        this.slidesArray[this.currentSlide].style.display = 'flex';
+        this.slidesArray[this.currentSlide].style.display = 'block';
     }
     goBack (){
         this.currentSlide--;

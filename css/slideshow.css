@@ -7,9 +7,11 @@
     position: relative;
     margin: 0%;
     padding: 0%;
-    height: 60vh;
-    width: 100%;
-    max-width: 425px;
+    height: 425px;
+    max-height: 100vmin;
+    width: 425px;
+    max-width: 100%;
+    border-radius: 2%;
 }
 .slide {
     display: none;
@@ -17,6 +19,7 @@
     margin: 0%;
     padding: 0%;
     width: 100%;
+    overflow: hidden;
 }
 .slide_number, .slide_caption {
     display: block;
@@ -38,9 +41,8 @@
     display: block;
     margin: 0%;
     padding: 0%;
-    height: auto;
     width: 100%;
-    border-radius: 2%;
+    border: solid green;
 }
 .slide_buttons {
     display: flex;
