@@ -21,7 +21,6 @@ h4 {
 
 /* add wrapper for max width desktop */
 .wrapper {
-  background-color: #f0f0d8;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -38,7 +37,7 @@ h4 {
 }
 
 .logo-mobile img {
-  width: 150px;
+  width: 100px;
   border-radius: 10px;
 }
 
@@ -74,6 +73,7 @@ h4 {
   border-radius: 20px 0 20px;
   overflow: hidden;
   margin-top: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 
@@ -130,6 +130,21 @@ section {
   align-items: center;
   padding-top: 4.2rem; /* because has 4rem height*/
   width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: #f0f0d8;
+}
+
+#section-go {
+  margin-bottom: 0rem;
+}
+
+@media (min-width: 960px) {
+  section {
+    border-radius: 15px;
+  }
+  #section-go {
+    border-radius: 15px 15px 0 0;
+  }
 }
 
 .text-section {
@@ -155,21 +170,9 @@ section .section-image {
   align-items: center;
 }
 
-/* #section-be {
-  background: linear-gradient(#f0f0d8 5%, #ccd8ce 70%);
-}
-
-#section-do {
-  background: linear-gradient(#f0f0d8 5%, #a8c0c3 70%);
-}
-
-#section-go {
-  background: linear-gradient(#f0f0d8 5%, #84a8b8 70%);
-} */
-
 #section-footer {
   background-color: #5f90ad;
-
+  display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-evenly;
