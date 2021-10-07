@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   background: linear-gradient(#a8c0c3 5%, #84a8b8 70%);
