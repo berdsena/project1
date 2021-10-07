@@ -62,7 +62,7 @@ h4 {
 }
 
 
-/* Menu MAin */
+/* Menu Main */
 
 .welcome-categories {
   font-family: 'Lobster', cursive;
@@ -148,15 +148,31 @@ section {
   }
 }
 
+.silhouette {
+  position: relative; 
+  display: flex; 
+  justify-content:center; 
+  align-items:center; 
+  width: 90%;
+}
+
+.section-title {
+  font-family: "Lobster", cursive;
+  position: absolute; 
+  font-size: 70px;
+}
+
+.section-image {
+  width: 150px;
+}
+
 .text-section {
   font-weight: 900;
   margin-bottom: 1rem;
   text-align: center;
   padding: 0 1rem;
-}
-
-section .section-image {
-  width: 100%;
+  position: absolute;
+  bottom: 0%;
 }
 
 .beCarousel,
