@@ -27,6 +27,31 @@ h4 {
   position: relative;
 }
 
+.logo-desktop {
+  max-width: 960px;
+  display: none;
+}
+
+.logo-desktop img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-mobile img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 600px) {
+  .logo-desktop {
+    display: block;
+  }
+  .logo-mobile {
+    display: none;
+  }
+}
+
 .welcome-text {
   width: 80%;
   text-align: center;
@@ -48,7 +73,7 @@ h4 {
   flex-direction: column;
   border-radius: 20px 0 20px;
   overflow: hidden;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 
