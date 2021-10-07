@@ -26,7 +26,8 @@ padding: 0.5rem;
 
 .welcome-categories {
   font-family: 'Lobster', cursive;
-  width: 95%;
+  width: 90%;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   border-radius: 20px 0 20px;
@@ -37,7 +38,6 @@ padding: 0.5rem;
 .welcome-category > a {
   width: 100%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   padding-right: 4rem;
   font-size: 1.5rem;
@@ -47,11 +47,13 @@ padding: 0.5rem;
 .icons-main {
   width: 120px;
   padding: 0.5rem;
+  margin: 0 1rem;
 }
 
 .welcome-category.do-chill > a {
   padding-right: 0;
   padding-left: 4rem;
+  justify-content: flex-end;
 }
 .subtext {
   font-size: 1rem;
