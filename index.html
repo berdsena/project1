@@ -6,20 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-    rel="stylesheet"
-  />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0700;0,800;1,300;1,400;1,500;1,800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="navigation.css" />
-    <link rel="stylesheet" href="slideshow.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navigation.css" />
+    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Chillout Berlin</title>
   </head>
   <body>
@@ -28,60 +22,50 @@
         <nav>
           <div class="mobile-menu">
             <div class="nav-login login_icon" id="loginIconStart">
-              <img class="icon" src="./icons/join.svg" alt="" />
+              <img class="icon" src="assets/icons/join.svg" alt="join svg" />
             </div>
             <div class="menu-toggle opacity-zero" id="menuToggle">
-              <img
-                class="icon icon-burger"
-                id="menuOpen"
-                src="./icons/bars-solid.svg"
-                alt=""
-              />
-              <img
-                class="icon icon-close display-none"
-                id="menuClose"
-                src="./icons/times-solid.svg"
-                alt=""
-              />
+              <img class="icon icon-burger" id="menuOpen" src="assets/icons/bars-solid.svg" alt=""/>
+              <img class="icon icon-close display-none" id="menuClose" src="assets/icons/xclose.svg" alt="" />
             </div>
             <div class="menu-content display-none" id="menuContent">
               <div class="nav-login login_icon" id="loginIconMenu">
-                <img class="icon" src="./icons/join.svg" alt="" />
+                <img class="icon" src="assets/icons/join.svg" alt="" />
               </div>
               <div class="menu-icon-be">
                 <a class="menu-link" href="#section-be">
-                  <img class="icon" src="newicons/be_vector_navbar.png" alt="" />
+                  <img class="icon" src="assets/icons/be_vector_navbar.png" alt="" />
                 </a>
               </div>
               <div class="menu-icon-do">
                 <a class="menu-link" href="#section-do">
-                  <img class="icon" src="newicons/do_vector_navbar.png" alt="" />
+                  <img class="icon" src="assets/icons/do_vector_navbar.png" alt="" />
                 </a>
               </div>
               <div class="menu-icon go">
                 <a class="menu-link" href="#section-go">
-                  <img class="icon" src="newicons/go_vector_navbar.png" alt="" />
+                  <img class="icon" src="assets/icons/go_vector_navbar.png" alt="" />
                 </a>
               </div>
             </div>
           </div>
           <div class="desktop-menu display-none">
             <div class="menu-link login_icon">
-              <img class="icon" src="./icons/join.svg" alt="" />
+              <img class="icon" src="assets/icons/join.svg" alt="" />
             </div>
             <div class="menu-icon-be">
               <a class="menu-link" href="#section-be">
-                <img class="icon" src="newicons/be_vector_navbar.png" alt="" />
+                <img class="icon" src="assets/icons/be_vector_navbar.png" alt="" />
               </a>
             </div>
             <div class="menu-icon-do">
               <a class="menu-link" href="#section-do">
-                <img class="icon" src="newicons/do_vector_navbar.png" alt="" />
+                <img class="icon" src="assets/icons/do_vector_navbar.png" alt="" />
               </a>
             </div>
             <div class="menu-icon-go">
               <a class="menu-link" href="#section-go">
-                <img class="icon" src="newicons/go_vector_navbar.png" alt="" />
+                <img class="icon" src="assets/icons/go_vector_navbar.png" alt="" />
               </a>
             </div>
           </div>
@@ -91,10 +75,10 @@
         <div class="login_screen">
           <div class="login_head">
               <div class="logo_img">
-                  <img src="./newicons/community_icon.png" alt="x" class="logo">
+                  <img src="./assets/icons/community_icon.png" alt="x" class="logo">
               </div>
               <div class="close_button">
-                  <img src="./newicons/x_white.png" alt="" class="close_icon">
+                  <img src="./assets/icons/xclose.svg" alt="" class="close_icon">
               </div>
           </div>
           <div class="login_input">
@@ -112,7 +96,7 @@
       </div>
       <section class="">
         <div class="">
-          <img src="./assets/logo_placeholder.jpg" />
+          <img src="assets/logo_placeholder.jpg" />
         </div>
         <div class="welcome-text">
           <br />
@@ -124,7 +108,7 @@
         <div class="welcome-categories">
           <div class="welcome-category be-chill">
             <a href="#section-be">
-              <img class="icons-main" src="newicons/be_icon.png" />
+              <img class="icons-main" src="assets/icons/be_icon.png" />
               <div class="welcome-category-section">
                 <h3>Be Chill</h3>
                 <p class="subtext"> music and videos to chill</p>
@@ -137,12 +121,12 @@
                 <h3>Do Chill</h3>
                 <p class="subtext">make some exercises</p>
               </div>
-              <img class="icons-main" src="newicons/do_icon.png" />
+              <img class="icons-main" src="assets/icons/do_icon.png" />
             </a>
           </div>
           <div class="welcome-category go-chill">
             <a href="#section-go">
-              <img class="icons-main" src="newicons/go_icon.png" />
+              <img class="icons-main" src="assets/icons/go_icon.png" />
               <div class="welcome-category-section">
                 <h3>Go Chill</h3>
                 <p class="subtext">find places to chill</p>
@@ -150,8 +134,7 @@
             </a>
           </div>
         </div>
-      </section>
-      
+      </section>      
       <section id="section-be">
         <div></div>
         <div class="">
@@ -165,22 +148,22 @@
           <div class="slides">
             <div class="slide">
               <div class="slide_number">1/4</div>
-              <img class="slide_img" src="slides_show_media/ship001.jpg" alt="Large sail ship">
+              <img class="slide_img" src="media/be_media/ship001.jpg" alt="Large sail ship">
               <div class="slide_caption">Large Sail</div>
             </div>
             <div class="slide">
               <div class="slide_number">2/4</div>
-              <img class="slide_img" src="slides_show_media/ship002.jpg" alt="Boat">
+              <img class="slide_img" src="media/be_media/ship002.jpg" alt="Boat">
               <div class="slide_caption">Boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">3/4</div>
-              <img class="slide_img" src="slides_show_media/ship003.jpg" alt="Sail boat">
+              <img class="slide_img" src="media/be_media/ship003.jpg" alt="Sail boat">
               <div class="slide_caption">Sail boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">4/4</div>
-              <img class="slide_img" src="slides_show_media/ship004.jpg" alt="Rope">
+              <img class="slide_img" src="media/be_media/ship004.jpg" alt="Rope">
               <div class="slide_caption">Rope</div>
             </div>
             <div class="slide_buttons">
@@ -211,22 +194,22 @@
           <div class="slides">
             <div class="slide">
               <div class="slide_number">1/4</div>
-                <img class="slide_img" src="slides_show_media/ship001.jpg" alt="Large sail ship">
+                <img class="slide_img" src="media/do_media/ship001.jpg" alt="Large sail ship">
               <div class="slide_caption">Large Sail</div>
             </div>
             <div class="slide">
               <div class="slide_number">2/4</div>
-                <img class="slide_img" src="slides_show_media/ship002.jpg" alt="Boat">
+                <img class="slide_img" src="media/do_media/ship002.jpg" alt="Boat">
               <div class="slide_caption">Boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">3/4</div>
-                <img class="slide_img" src="slides_show_media/ship003.jpg" alt="Sail boat">
+                <img class="slide_img" src="media/do_media/ship003.jpg" alt="Sail boat">
               <div class="slide_caption">Sail boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">4/4</div>
-                <img class="slide_img" src="slides_show_media/ship004.jpg" alt="Rope">
+                <img class="slide_img" src="media/do_media/ship004.jpg" alt="Rope">
               <div class="slide_caption">Rope</div>
             </div>
             <div class="slide_buttons">
@@ -242,8 +225,7 @@
           </div>        
         </div>
         <div class=""></div>
-      </section>
-     
+      </section>     
       <section id="section-go">
         <div></div>
         <div class="">
@@ -256,22 +238,22 @@
           <div class="slides">
             <div class="slide">
               <div class="slide_number">1/4</div>
-              <img class="slide_img" src="slides_show_media/ship001.jpg" alt="Large sail ship">
+              <img class="slide_img" src="media/go_media/ship001.jpg" alt="Large sail ship">
               <div class="slide_caption">Large Sail</div>
             </div>
             <div class="slide">
               <div class="slide_number">2/4</div>
-              <img class="slide_img" src="slides_show_media/ship002.jpg" alt="Boat">
+              <img class="slide_img" src="media/go_media/ship002.jpg" alt="Boat">
               <div class="slide_caption">Boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">3/4</div>
-              <img class="slide_img" src="slides_show_media/ship003.jpg" alt="Sail boat">
+              <img class="slide_img" src="media/go_media/ship003.jpg" alt="Sail boat">
               <div class="slide_caption">Sail boat</div>
             </div>
             <div class="slide">
               <div class="slide_number">4/4</div>
-              <img class="slide_img" src="slides_show_media/ship004.jpg" alt="Rope">
+              <img class="slide_img" src="media/go_media/ship004.jpg" alt="Rope">
               <div class="slide_caption">Rope</div>
             </div>
             <div class="slide_buttons">
@@ -310,8 +292,8 @@
         </div>
       </section>
     </div>
-    <script src="login.js"></script>
-    <script src="navigation.js"></script>
-    <script src="slideshow.js"></script>
+    <script src="javascript/login.js"></script>
+    <script src="javascript/navigation.js"></script>
+    <script src="javascript/slideshow.js"></script>
   </body>
 </html>
