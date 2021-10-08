@@ -9,8 +9,12 @@ body {
 }
 
 h1,
-h2,
-h3,
+h2 {
+  font-family: "Lobster", cursive;
+}
+h3 {
+  font-family: "Nunito", sans-serif;
+}
 h4 {
   font-family: "Lobster", cursive;
 }
