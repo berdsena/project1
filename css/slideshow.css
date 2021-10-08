@@ -19,6 +19,7 @@
     margin: 0%;
     padding: 0%;
     width: 100%;
+    border-radius: 3%;
     overflow: hidden;
 }
 .slide_number, .slide_caption {
@@ -27,22 +28,22 @@
     margin: 0%;
     padding: 5px;
     color:#f0f0d8;
-    background-color: #5f90ad20;
+    background-color: #5f90adab;
     font-size: 16px;
-    border-radius: 40%;
 }
 .slide_number {
     top: 0%;
+    border-radius: 20%;
 }
 .slide_caption {
     bottom: 0%;
+    border-radius: 10%;
 }
 .slide_img{
     display: block;
     margin: 0%;
     padding: 0%;
     width: 100%;
-    border: solid green;
 }
 .slide_buttons {
     display: flex;
@@ -53,22 +54,31 @@
     align-self: center;
     width: 100%;
     max-height: 100%;
+    border: solid;
 }
 .prev, .next {
     display: block;
-    cursor: pointer;
+    position: absolute;
+    cursor: default;
     margin: 0%;
-    padding: 10% 2px;
+    padding: 35% 5px;
     color: #fa7f43;
-    background-color: #5f90ad20;
+    background-color: #5f90ad55;
     font-size: 20px;
     text-decoration: none;
+    font-weight: bold;
 }
 .prev{
     border-radius: 0 30px 30px 0;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .next{
     border-radius: 30px 0 0 30px;
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .index{
     display: flex;
