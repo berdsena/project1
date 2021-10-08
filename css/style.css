@@ -133,6 +133,7 @@ section {
   width: 100%;
   margin-bottom: 1.5rem;
   background-color: #f0f0d8;
+  box-shadow: 3px 3px 3px gray;
 }
 
 #section-go {
